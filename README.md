@@ -113,3 +113,6 @@ Para reiniciar los datos demo (fechas nuevas): `npm run seed:reset`.
 ## ☁️ Despliegue
 
 Publicado en **Azure App Service** (Linux, Node 22) con **Azure SQL Database**, con despliegue continuo desde GitHub Actions.
+
+# real-time-vehicles
+Plataforma Web de Subastas de Vehículos en Tiempo Real - Parcial II
