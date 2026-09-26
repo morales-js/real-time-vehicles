@@ -1,0 +1,17 @@
+{
+  "name": "autopuja-gt",
+  "version": "1.0.0",
+  "description": "Plataforma web de subastas de vehículos en tiempo real (React SPA + Web API Node/Express + Socket.IO + SQL Server)",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm --prefix backend install --omit=dev && npm --prefix frontend install --include=dev",
+    "build": "npm --prefix frontend run build",
+    "start": "node backend/src/server.js",
+    "dev:api": "npm --prefix backend run dev",
+    "dev:web": "npm --prefix frontend run dev",
+    "seed:reset": "npm --prefix backend run seed:reset"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
